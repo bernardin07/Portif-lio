@@ -1,0 +1,110 @@
+body, h1, h2, p, div, a, img, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+/* Header/Nav */
+#Header {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    padding: 20px 0;
+    gap: 30px;
+    color: inherit;
+    text-decoration: none;
+}
+
+#Header .nav-item a {
+    color: inherit ;
+    text-decoration: none;
+}
+#Header .nav-item a:hover {
+    color: #00aaff ;
+    text-decoration: none ;
+}
+
+#Header .nav-item, #Header div {
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#Header .nav-item:hover, #Header div:hover {
+    color: #00aaff;
+}
+
+#home{
+     display: flex;
+    margin-left: 30%;
+    margin-top: 10%;
+    color: black;
+}
+
+
+#imagem {
+      width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    object-fit: cover;
+}
+
+#text-home {
+    margin-left: 40px;
+    margin-bottom:12px;
+}
+
+#fonte {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 10px;
+}
+#icons {
+    color: blue;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    
+}
+#icons svg {
+    width: 50px;
+    height: 50px;
+}
+
+#icons a:hover {
+  color: #0066ff;         
+  transform: scale(1.2);  /* aumenta um pouquinho o tamanho */
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00aaff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background 0.2s;
+}
+.btn-download:hover {
+    background: #0077cc;
+    
+}
+
+#info {
+    font-size: 20px;
+    color: #444444;
+    margin-bottom: 15px;
+     font-style: italic;
+}
